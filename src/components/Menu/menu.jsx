@@ -4,7 +4,7 @@ import styles from "./menu.module.css";
 const menu = () => {
   return (
     <div className={styles.container}>
-      
+      menu
     </div>
   )
 }
