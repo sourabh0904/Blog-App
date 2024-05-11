@@ -4,7 +4,8 @@ import styles from "./menu.module.css";
 const menu = () => {
   return (
     <div className={styles.container}>
-      menu
+      <h2>{"What's hot"}</h2>
+      <h1>Most Popular</h1>
     </div>
   )
 }
