@@ -4,7 +4,8 @@ import styles from "./pagination.module.css";  // Import css modules stylesheet 
 const pagination = () => {
   return (
     <div className={styles.container}>
-      pagination
+      <button className={styles.button}>Previous</button>
+      <button className={styles.button}>Next</button>
     </div>
   )
 }
