@@ -24,7 +24,7 @@ const card = () => {
         <Link href="/" className={styles.link}>Read More</Link>
       </div>
     </div>
-  );
+  ); 
 };
 
 export default card;
