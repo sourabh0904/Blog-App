@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./singlePage.module.css";
 import Image from "next/image";
 import Menu from "../../components/Menu/menu";
+import Comments from "@/components/comments/comments";
 
 const SinglePage = () => {
   return (
@@ -85,28 +86,9 @@ const SinglePage = () => {
               vero provident rerum aliquid, necessitatibus pariatur nam corporis
               possimus!
             </p>
-            <p style={{marginTop: 20}}>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae
-              dicta quaerat temporibus ipsa vero, libero mollitia error totam,
-              cumque sit unde harum id? Deleniti dolorum unde saepe! Numquam
-              recusandae excepturi aperiam quidem a nulla quos maiores assumenda
-              nemo architecto, blanditiis iure amet eligendi id fuga. Sed autem
-              ab sit culpa numquam, minima voluptatibus enim repellat
-              necessitatibus. Quaerat alias voluptates vitae eius? Quis cum
-              saepe laudantium earum illum odio voluptate atque repellendus hic
-              mollitia alias neque ipsum ea fugit laboriosam, quasi delectus
-              officiis eius nam adipisci totam eos blanditiis nisi voluptatem!
-              Accusamus rerum ex aut, consectetur ullam, voluptatem error
-              deserunt ad inventore saepe possimus molestias reprehenderit,
-              praesentium non totam neque incidunt voluptatum quas harum at
-              tenetur doloribus facilis aperiam? Dicta quia quod fuga voluptas
-              quos. Temporibus molestiae architecto suscipit. Aut provident
-              quidem dolores officiis facere, aliquam qui repudiandae mollitia
-              corrupti laboriosam totam quos quaerat unde vero ab, sequi nihil
-              dignissimos ea consectetur repellat pariatur sunt error est. Odio
-              fugiat perferendis excepturi porro cum placeat. Quisquam placeat
-              perferendis eum veritatis a assumenda.
-            </p>
+            <div className={styles.comments}>
+              <Comments />
+            </div>
           </div>
         </div>
         <Menu />
