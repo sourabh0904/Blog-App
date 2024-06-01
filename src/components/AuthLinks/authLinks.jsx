@@ -5,7 +5,7 @@ import styles from "./authLinks.module.css";
 import { useState } from "react";
 
 //status can be authenticated or notauthenticated here we assume it temporarily as notauthenticated
-const status = "notauthenticated";
+const status = "authenticated";
 
 const authLinks = () => {
   const [open, setOpen] = useState(false);
@@ -15,7 +15,7 @@ const authLinks = () => {
         <Link href="/login" className={styles.link}>Login</Link>
       ) : (
         <>
-          <Link href="/logout" className={styles.link}>Write</Link>
+          <Link href="/write" className={styles.link}>Write</Link>
           <span className={styles.Link}>Logout</span>
         </>
       )}
