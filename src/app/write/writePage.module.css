@@ -1,3 +1,81 @@
+/* Styles for the container */
 .container {
-    
-}
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  /* Styles for the editor */
+  .editor {
+    display: flex;
+    gap: 20px;
+    height: 500px;
+  }
+  
+  /* Styles for the button */
+  .button,
+  .addButton {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .addButton {
+    border-color: #1a8917;
+  }
+  
+  /* Styles for the add section */
+  .add {
+    display: flex;
+    gap: 20px;
+    background-color: #f0f0f0;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    left: 20px;
+    padding: 10px;
+  }
+  
+  /* Styles for the input */
+  .input {
+    padding: 20px;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: calc(100% - 40px);
+  }
+  
+  .input::placeholder {
+    color: #b3b3b1;
+  }
+  
+  /* Styles for the text area */
+  .textArea {
+    width: 100%;
+    min-height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  
+  /* Styles for the publish button */
+  .publish {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #1a8917;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
